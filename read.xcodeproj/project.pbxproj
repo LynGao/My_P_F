@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2327B718B4583F0015447B /* a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CC2327B618B4583F0015447B /* a.pdf */; };
+		CC2327B918B459A00015447B /* ViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2327B818B459A00015447B /* ViewController_ipad.xib */; };
+		CC41AF3118B5A9390012B819 /* b.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CC41AF3018B5A9390012B819 /* b.pdf */; };
+		CC41AF3418B600280012B819 /* BottomThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AF3318B600280012B819 /* BottomThumbView.m */; };
+		CC41AF3918B60EEB0012B819 /* pad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC41AF3618B60EEB0012B819 /* pad.jpg */; };
+		CC41AF3A18B60EEB0012B819 /* 277bc6d36eb7998ff11efe8409fbaa70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC41AF3718B60EEB0012B819 /* 277bc6d36eb7998ff11efe8409fbaa70.jpg */; };
+		CC875AFC18B7269B00C32A08 /* MyToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC875AFB18B7269B00C32A08 /* MyToolBar.m */; };
+		CC875AFF18B7271800C32A08 /* PdfHeaderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC875AFE18B7271800C32A08 /* PdfHeaderBar.m */; };
+		CC875B0618B72B8F00C32A08 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CC875B0518B72B8F00C32A08 /* Util.m */; };
+		CC875B0B18B72E1600C32A08 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = CC875B0A18B72E1600C32A08 /* Model.m */; };
+		CC875B0E18B73CB300C32A08 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC875B0D18B73CB300C32A08 /* CoreMedia.framework */; };
+		CC875B1018B73CBF00C32A08 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC875B0F18B73CBF00C32A08 /* MediaPlayer.framework */; };
+		CC875B1218B73D8200C32A08 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC875B1118B73D8200C32A08 /* AVFoundation.framework */; };
+		CC875B1818B7498F00C32A08 /* ThumbItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC875B1718B7498F00C32A08 /* ThumbItemView.m */; };
+		CCBEACBD15C13AC300CFCECB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBEACBC15C13AC300CFCECB /* UIKit.framework */; };
+		CCBEACBF15C13AC300CFCECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBEACBE15C13AC300CFCECB /* Foundation.framework */; };
+		CCBEACC115C13AC300CFCECB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBEACC015C13AC300CFCECB /* CoreGraphics.framework */; };
+		CCBEACC715C13AC300CFCECB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBEACC515C13AC300CFCECB /* InfoPlist.strings */; };
+		CCBEACC915C13AC300CFCECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEACC815C13AC300CFCECB /* main.m */; };
+		CCBEACCD15C13AC300CFCECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEACCC15C13AC300CFCECB /* AppDelegate.m */; };
+		CCBEACD015C13AC300CFCECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEACCF15C13AC300CFCECB /* ViewController.m */; };
+		CCBEACD315C13AC300CFCECB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBEACD115C13AC300CFCECB /* ViewController.xib */; };
+		CCD7185615C22FBD00267D48 /* NewPdfView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD7185515C22FBD00267D48 /* NewPdfView.m */; };
+		CCE899E718B35CCA0077BDD0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE899E618B35CCA0077BDD0 /* QuartzCore.framework */; };
+		CCE899E918B35CD10077BDD0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE899E818B35CD10077BDD0 /* CoreImage.framework */; };
+		CCE899EC18B35E720077BDD0 /* PdfUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE899EB18B35E720077BDD0 /* PdfUtil.m */; };
+		CCE899EF18B3646C0077BDD0 /* PdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE899EE18B3646C0077BDD0 /* PdfViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC2327B618B4583F0015447B /* a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = a.pdf; path = ../a.pdf; sourceTree = "<group>"; };
+		CC2327B818B459A00015447B /* ViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_ipad.xib; sourceTree = "<group>"; };
+		CC41AF3018B5A9390012B819 /* b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = b.pdf; path = ../b.pdf; sourceTree = "<group>"; };
+		CC41AF3218B600280012B819 /* BottomThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomThumbView.h; sourceTree = "<group>"; };
+		CC41AF3318B600280012B819 /* BottomThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomThumbView.m; sourceTree = "<group>"; };
+		CC41AF3618B60EEB0012B819 /* pad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pad.jpg; path = ../pad.jpg; sourceTree = "<group>"; };
+		CC41AF3718B60EEB0012B819 /* 277bc6d36eb7998ff11efe8409fbaa70.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 277bc6d36eb7998ff11efe8409fbaa70.jpg; path = ../277bc6d36eb7998ff11efe8409fbaa70.jpg; sourceTree = "<group>"; };
+		CC875AFA18B7269B00C32A08 /* MyToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyToolBar.h; sourceTree = "<group>"; };
+		CC875AFB18B7269B00C32A08 /* MyToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyToolBar.m; sourceTree = "<group>"; };
+		CC875AFD18B7271800C32A08 /* PdfHeaderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfHeaderBar.h; sourceTree = "<group>"; };
+		CC875AFE18B7271800C32A08 /* PdfHeaderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfHeaderBar.m; sourceTree = "<group>"; };
+		CC875B0418B72B8F00C32A08 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		CC875B0518B72B8F00C32A08 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		CC875B0918B72E1600C32A08 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		CC875B0A18B72E1600C32A08 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		CC875B0D18B73CB300C32A08 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CC875B0F18B73CBF00C32A08 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CC875B1118B73D8200C32A08 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CC875B1618B7498F00C32A08 /* ThumbItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbItemView.h; sourceTree = "<group>"; };
+		CC875B1718B7498F00C32A08 /* ThumbItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbItemView.m; sourceTree = "<group>"; };
+		CCBEACB815C13AC300CFCECB /* MyPdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBEACBC15C13AC300CFCECB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCBEACBE15C13AC300CFCECB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCBEACC015C13AC300CFCECB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCBEACC415C13AC300CFCECB /* MyPdf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPdf-Info.plist"; sourceTree = "<group>"; };
+		CCBEACC615C13AC300CFCECB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBEACC815C13AC300CFCECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBEACCA15C13AC300CFCECB /* MyPdf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPdf-Prefix.pch"; sourceTree = "<group>"; };
+		CCBEACCB15C13AC300CFCECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCBEACCC15C13AC300CFCECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCBEACCE15C13AC300CFCECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCBEACCF15C13AC300CFCECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCBEACD215C13AC300CFCECB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CCD7185415C22FBD00267D48 /* NewPdfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewPdfView.h; path = ../NewPdfView.h; sourceTree = "<group>"; };
+		CCD7185515C22FBD00267D48 /* NewPdfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewPdfView.m; path = ../NewPdfView.m; sourceTree = "<group>"; };
+		CCE899E618B35CCA0077BDD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCE899E818B35CD10077BDD0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CCE899EA18B35E720077BDD0 /* PdfUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfUtil.h; sourceTree = "<group>"; };
+		CCE899EB18B35E720077BDD0 /* PdfUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfUtil.m; sourceTree = "<group>"; };
+		CCE899ED18B3646C0077BDD0 /* PdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewController.h; sourceTree = "<group>"; };
+		CCE899EE18B3646C0077BDD0 /* PdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBEACB515C13AC300CFCECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC875B1218B73D8200C32A08 /* AVFoundation.framework in Frameworks */,
+				CC875B1018B73CBF00C32A08 /* MediaPlayer.framework in Frameworks */,
+				CC875B0E18B73CB300C32A08 /* CoreMedia.framework in Frameworks */,
+				CCE899E918B35CD10077BDD0 /* CoreImage.framework in Frameworks */,
+				CCE899E718B35CCA0077BDD0 /* QuartzCore.framework in Frameworks */,
+				CCBEACBD15C13AC300CFCECB /* UIKit.framework in Frameworks */,
+				CCBEACBF15C13AC300CFCECB /* Foundation.framework in Frameworks */,
+				CCBEACC115C13AC300CFCECB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC875AF918B6FB3D00C32A08 /* Resourece */ = {
+			isa = PBXGroup;
+			children = (
+				CC41AF3618B60EEB0012B819 /* pad.jpg */,
+				CC41AF3718B60EEB0012B819 /* 277bc6d36eb7998ff11efe8409fbaa70.jpg */,
+				CC41AF3018B5A9390012B819 /* b.pdf */,
+				CC2327B618B4583F0015447B /* a.pdf */,
+			);
+			name = Resourece;
+			sourceTree = "<group>";
+		};
+		CC875B0018B7272D00C32A08 /* HeaderBar */ = {
+			isa = PBXGroup;
+			children = (
+				CC875AFA18B7269B00C32A08 /* MyToolBar.h */,
+				CC875AFB18B7269B00C32A08 /* MyToolBar.m */,
+				CC875AFD18B7271800C32A08 /* PdfHeaderBar.h */,
+				CC875AFE18B7271800C32A08 /* PdfHeaderBar.m */,
+			);
+			name = HeaderBar;
+			sourceTree = "<group>";
+		};
+		CC875B0118B7275800C32A08 /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				CC41AF3218B600280012B819 /* BottomThumbView.h */,
+				CC41AF3318B600280012B819 /* BottomThumbView.m */,
+				CC875B1618B7498F00C32A08 /* ThumbItemView.h */,
+				CC875B1718B7498F00C32A08 /* ThumbItemView.m */,
+			);
+			name = BottomBar;
+			sourceTree = "<group>";
+		};
+		CC875B0218B7276300C32A08 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CCE899ED18B3646C0077BDD0 /* PdfViewController.h */,
+				CCE899EE18B3646C0077BDD0 /* PdfViewController.m */,
+				CCD7185415C22FBD00267D48 /* NewPdfView.h */,
+				CCD7185515C22FBD00267D48 /* NewPdfView.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		CC875B0318B7277A00C32A08 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CCE899EA18B35E720077BDD0 /* PdfUtil.h */,
+				CCE899EB18B35E720077BDD0 /* PdfUtil.m */,
+				CC875B0418B72B8F00C32A08 /* Util.h */,
+				CC875B0518B72B8F00C32A08 /* Util.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CC875B0818B72DBC00C32A08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC875B0918B72E1600C32A08 /* Model.h */,
+				CC875B0A18B72E1600C32A08 /* Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCBEACAD15C13AC300CFCECB = {
+			isa = PBXGroup;
+			children = (
+				CCBEACC215C13AC300CFCECB /* Read */,
+				CCBEACBB15C13AC300CFCECB /* Frameworks */,
+				CCBEACB915C13AC300CFCECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBEACB915C13AC300CFCECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBEACB815C13AC300CFCECB /* MyPdf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBEACBB15C13AC300CFCECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC875B1118B73D8200C32A08 /* AVFoundation.framework */,
+				CC875B0F18B73CBF00C32A08 /* MediaPlayer.framework */,
+				CC875B0D18B73CB300C32A08 /* CoreMedia.framework */,
+				CCE899E818B35CD10077BDD0 /* CoreImage.framework */,
+				CCE899E618B35CCA0077BDD0 /* QuartzCore.framework */,
+				CCBEACBC15C13AC300CFCECB /* UIKit.framework */,
+				CCBEACBE15C13AC300CFCECB /* Foundation.framework */,
+				CCBEACC015C13AC300CFCECB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCBEACC215C13AC300CFCECB /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				CC875B0818B72DBC00C32A08 /* Model */,
+				CC875AF918B6FB3D00C32A08 /* Resourece */,
+				CC875B0318B7277A00C32A08 /* Util */,
+				CC875B0218B7276300C32A08 /* MainView */,
+				CC875B0118B7275800C32A08 /* BottomBar */,
+				CC875B0018B7272D00C32A08 /* HeaderBar */,
+				CCBEACCB15C13AC300CFCECB /* AppDelegate.h */,
+				CCBEACCC15C13AC300CFCECB /* AppDelegate.m */,
+				CCBEACCE15C13AC300CFCECB /* ViewController.h */,
+				CCBEACCF15C13AC300CFCECB /* ViewController.m */,
+				CCBEACD115C13AC300CFCECB /* ViewController.xib */,
+				CC2327B818B459A00015447B /* ViewController_ipad.xib */,
+				CCBEACC315C13AC300CFCECB /* Supporting Files */,
+			);
+			name = Read;
+			path = MyPdf;
+			sourceTree = "<group>";
+		};
+		CCBEACC315C13AC300CFCECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBEACC415C13AC300CFCECB /* MyPdf-Info.plist */,
+				CCBEACC515C13AC300CFCECB /* InfoPlist.strings */,
+				CCBEACC815C13AC300CFCECB /* main.m */,
+				CCBEACCA15C13AC300CFCECB /* MyPdf-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBEACB715C13AC300CFCECB /* MyPdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBEACD615C13AC300CFCECB /* Build configuration list for PBXNativeTarget "MyPdf" */;
+			buildPhases = (
+				CCBEACB415C13AC300CFCECB /* Sources */,
+				CCBEACB515C13AC300CFCECB /* Frameworks */,
+				CCBEACB615C13AC300CFCECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPdf;
+			productName = MyPdf;
+			productReference = CCBEACB815C13AC300CFCECB /* MyPdf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBEACAF15C13AC300CFCECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CCBEACB215C13AC300CFCECB /* Build configuration list for PBXProject "read" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCBEACAD15C13AC300CFCECB;
+			productRefGroup = CCBEACB915C13AC300CFCECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBEACB715C13AC300CFCECB /* MyPdf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBEACB615C13AC300CFCECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2327B918B459A00015447B /* ViewController_ipad.xib in Resources */,
+				CC2327B718B4583F0015447B /* a.pdf in Resources */,
+				CC41AF3118B5A9390012B819 /* b.pdf in Resources */,
+				CCBEACC715C13AC300CFCECB /* InfoPlist.strings in Resources */,
+				CCBEACD315C13AC300CFCECB /* ViewController.xib in Resources */,
+				CC41AF3918B60EEB0012B819 /* pad.jpg in Resources */,
+				CC41AF3A18B60EEB0012B819 /* 277bc6d36eb7998ff11efe8409fbaa70.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBEACB415C13AC300CFCECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC875B1818B7498F00C32A08 /* ThumbItemView.m in Sources */,
+				CC875B0B18B72E1600C32A08 /* Model.m in Sources */,
+				CC41AF3418B600280012B819 /* BottomThumbView.m in Sources */,
+				CCE899EC18B35E720077BDD0 /* PdfUtil.m in Sources */,
+				CCBEACC915C13AC300CFCECB /* main.m in Sources */,
+				CCE899EF18B3646C0077BDD0 /* PdfViewController.m in Sources */,
+				CC875AFF18B7271800C32A08 /* PdfHeaderBar.m in Sources */,
+				CC875B0618B72B8F00C32A08 /* Util.m in Sources */,
+				CCBEACCD15C13AC300CFCECB /* AppDelegate.m in Sources */,
+				CCBEACD015C13AC300CFCECB /* ViewController.m in Sources */,
+				CCD7185615C22FBD00267D48 /* NewPdfView.m in Sources */,
+				CC875AFC18B7269B00C32A08 /* MyToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCBEACC515C13AC300CFCECB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBEACC615C13AC300CFCECB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBEACD115C13AC300CFCECB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBEACD215C13AC300CFCECB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBEACD415C13AC300CFCECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCBEACD515C13AC300CFCECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBEACD715C13AC300CFCECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinmei Guo (27F5C929UV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPdf/MyPdf-Prefix.pch";
+				INFOPLIST_FILE = "MyPdf/MyPdf-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AB331868-1194-48CB-B048-08E09CAC6FFF";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCBEACD815C13AC300CFCECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPdf/MyPdf-Prefix.pch";
+				INFOPLIST_FILE = "MyPdf/MyPdf-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AB331868-1194-48CB-B048-08E09CAC6FFF";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBEACB215C13AC300CFCECB /* Build configuration list for PBXProject "read" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBEACD415C13AC300CFCECB /* Debug */,
+				CCBEACD515C13AC300CFCECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBEACD615C13AC300CFCECB /* Build configuration list for PBXNativeTarget "MyPdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBEACD715C13AC300CFCECB /* Debug */,
+				CCBEACD815C13AC300CFCECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBEACAF15C13AC300CFCECB /* Project object */;
+}
