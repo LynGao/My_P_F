@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		CC2327B618B4583F0015447B /* a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = a.pdf; path = ../a.pdf; sourceTree = "<group>"; };
 		CC2327B818B459A00015447B /* ViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_ipad.xib; sourceTree = "<group>"; };
+		CC358F2119655D1F00DDDEB4 /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		CC41AF3018B5A9390012B819 /* b.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = b.pdf; path = ../b.pdf; sourceTree = "<group>"; };
 		CC41AF3218B600280012B819 /* BottomThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomThumbView.h; sourceTree = "<group>"; };
 		CC41AF3318B600280012B819 /* BottomThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomThumbView.m; sourceTree = "<group>"; };
@@ -99,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC358F2019655D0C00DDDEB4 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				CC358F2119655D1F00DDDEB4 /* AppConstant.h */,
+			);
+			name = AppConstant;
+			sourceTree = "<group>";
+		};
 		CC875AF918B6FB3D00C32A08 /* Resourece */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +207,7 @@
 		CCBEACC215C13AC300CFCECB /* Read */ = {
 			isa = PBXGroup;
 			children = (
+				CC358F2019655D0C00DDDEB4 /* AppConstant */,
 				CC875B0818B72DBC00C32A08 /* Model */,
 				CC875AF918B6FB3D00C32A08 /* Resourece */,
 				CC875B0318B7277A00C32A08 /* Util */,

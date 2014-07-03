@@ -1,0 +1,4 @@
+platform :ios
+pod 'AfNetWorking', '~> 2.2.0'
+
+
